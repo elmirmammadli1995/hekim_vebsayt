@@ -1,6 +1,62 @@
-@use "main";
-@use "header";
-@use "imanli";
-@use "services";
-@use "contact";
-/*# sourceMappingURL=style.css.map */
+#header {
+  color: #ffffff;
+}
+#header .menu {
+  padding: 15px 0;
+  height: 80px;
+  background-color: #212529;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+#header .menu .btn {
+  color: #ffffff;
+}
+#header .menu .imgbox {
+  width: 78px;
+  height: auto;
+  margin-left: 20px;
+}
+#header .menu .imgbox img {
+  width: 100%;
+}
+#header .menu nav a {
+  margin: 0 15px;
+}
+
+#imanli {
+  padding: 50px 0;
+}
+#imanli .textbox h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+#imanli .textbox h1 {
+  color: #090101;
+  font-size: 55px;
+  font-weight: 900;
+  margin: 15px 0 25px 0;
+}
+#imanli .textbox h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+#imanli .textbox .btn {
+  background-color: #a0f1bd;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-top: 35px;
+}
+#imanli .textbox .btn h5 {
+  color: #ffffff;
+  font-size: 13px;
+}
+#imanli .imgbox {
+  width: 450px;
+}
+#imanli .imgbox img {
+  max-width: 100%;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
