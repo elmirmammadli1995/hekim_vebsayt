@@ -81,8 +81,8 @@
 }
 #services .carousel.slide {
   margin: 35px;
-  width: 800px;
-  height: 90%;
+  width: 700px;
+  height: 85%;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 10px 20px #1c1b1b;
@@ -103,6 +103,7 @@
 }
 #services .carousel.slide .carousel-item .carousel-caption h5 {
   font-size: 30px;
+  margin-bottom: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   color: #ffc107;
 }
@@ -111,7 +112,7 @@
   color: #f8f9fa;
   margin-bottom: 35px;
 }
-#services .carousel.slide .carousel-item .carousel-indicators button {
+#services .carousel.slide .carousel-indicators button {
   width: 12px !important;
   height: 12px !important;
   border-radius: 50% !important;
@@ -119,7 +120,7 @@
   margin: 0 5px !important;
   opacity: 0.7;
 }
-#services .carousel.slide .carousel-item .carousel-indicators.active {
+#services .carousel.slide .carousel-indicators.active {
   background-color: #ffc107 !important;
   opacity: 1;
 }/*# sourceMappingURL=style.css.map */
