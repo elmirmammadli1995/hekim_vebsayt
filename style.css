@@ -1,2 +1,6 @@
-@use "main" {}@use "header" {}@use "imanli" {}@use "services" {}@use "contact" {}
+@use "main";
+@use "header";
+@use "imanli";
+@use "services";
+@use "contact";
 /*# sourceMappingURL=style.css.map */
