@@ -172,13 +172,12 @@
   margin: 20px 0;
   line-height: 1.2;
 }
-#rubrics .video-box {
+#rubrics .videobox {
   display: flex;
-  justify-content: center;
   flex-flow: row wrap;
 }
-#rubrics .video-box .iframebox {
-  background-color: #f8fcfb;
-  border-radius: 15px;
-  margin: 10px;
+#rubrics .videobox .iframebox {
+  background-color: #d1c7c7;
+  width: 300px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
