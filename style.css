@@ -160,15 +160,25 @@
   padding: 50px 0;
   background-color: #bdd8e9;
 }
-#rubrics .textbox h1, #rubrics .textbox h2 {
-  font-weight: 600;
-  color: #fff;
+#rubrics .textbox {
+  text-align: center;
+}
+#rubrics .textbox h1 {
+  font-weight: 800;
+  font-size: 25px;
+}
+#rubrics .textbox h2 {
+  font-size: 17px;
+  margin: 20px 0;
+  line-height: 1.2;
 }
 #rubrics .video-box {
-  background-color: #b6f3fc;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 #rubrics .video-box .iframebox {
   background-color: #f8fcfb;
-  width: 400px;
-  height: 400px;
+  border-radius: 15px;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
