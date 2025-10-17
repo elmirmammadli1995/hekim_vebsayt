@@ -154,4 +154,21 @@
 #services .card-container .card .card-description {
   font-size: 19px;
   font-weight: 500;
+}
+
+#rubrics {
+  padding: 50px 0;
+  background-color: #bdd8e9;
+}
+#rubrics .textbox h1, #rubrics .textbox h2 {
+  font-weight: 600;
+  color: #fff;
+}
+#rubrics .video-box {
+  background-color: #b6f3fc;
+}
+#rubrics .video-box .iframebox {
+  background-color: #f8fcfb;
+  width: 400px;
+  height: 400px;
 }/*# sourceMappingURL=style.css.map */
