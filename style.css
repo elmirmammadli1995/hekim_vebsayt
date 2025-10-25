@@ -225,4 +225,21 @@
 .video-card .ratio {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
+}
+
+footer {
+  background-color: #0d0101;
+}
+footer .box h2 {
+  color: #fffefe;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+footer .box-two h3 {
+  color: #fffefe;
+  font-size: 18px;
+}
+footer .box-two h4 {
+  color: #fffefe;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */
