@@ -1,62 +1,118 @@
-#header {
-  color: #ffffff;
-}
-#header .menu {
-  padding: 15px 0;
-  height: 80px;
-  background-color: #212529;
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
   position: fixed;
   right: 0;
   left: 0;
   z-index: 1;
 }
-#header .menu .btn {
-  color: #ffffff;
+header .navbar .brand-title {
+  margin-left: 40px;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
 }
-#header .menu .imgbox {
-  width: 78px;
-  height: auto;
-  margin-left: 20px;
+header .navbar .navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
-#header .menu .imgbox img {
+header .navbar .navbar-links li {
+  list-style: none;
+}
+header .navbar .navbar-links li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+header .navbar .navbar-links li a:hover {
+  background-color: #555;
+}
+header .navbar .toggle-button {
+  position: absolute;
+  top: 1.25rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+header .navbar .toggle-button .bar {
+  height: 3px;
   width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
-#header .menu nav a {
-  margin: 0 15px;
+header .navbar .content {
+  padding: 20px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  header .toggle-button {
+    display: flex;
+  }
+  header .navbar-links {
+    display: none;
+    width: 100%;
+  }
+  header .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+  header .navbar-links li {
+    text-align: center;
+  }
+  header .navbar-links li a {
+    padding: 10px 0;
+  }
+  header .navbar-links.active {
+    display: flex;
+  }
 }
 
-#imanli {
+#about {
   padding: 50px 0;
 }
-#imanli .textbox h2 {
+#about .textbox h2 {
   font-size: 25px;
   font-weight: 600;
 }
-#imanli .textbox h1 {
+#about .textbox h1 {
   color: #090101;
   font-size: 55px;
   font-weight: 900;
   margin: 15px 0 25px 0;
 }
-#imanli .textbox h3 {
+#about .textbox h3 {
   font-size: 25px;
   font-weight: 500;
 }
-#imanli .textbox .btn {
+#about .textbox .btn {
   background-color: #a0f1bd;
   border: 1px solid;
   border-radius: 15px;
   padding: 5px 10px;
   margin-top: 35px;
 }
-#imanli .textbox .btn h5 {
+#about .textbox .btn h5 {
   color: #ffffff;
   font-size: 13px;
 }
-#imanli .imgbox {
+#about .imgbox {
   width: 450px;
 }
-#imanli .imgbox img {
+#about .imgbox img {
   max-width: 100%;
   border-radius: 50px;
 }
