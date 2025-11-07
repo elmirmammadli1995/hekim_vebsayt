@@ -212,21 +212,20 @@ header .navbar .content {
   font-weight: 500;
 }
 
-.video-section {
+#rubrics .video-section {
   background-color: #f8f9fa;
 }
-.video-section .section-title {
+#rubrics .video-section .section-title {
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 15px;
   color: #212529;
 }
-.video-section .text-muted {
+#rubrics .video-section .text-muted {
   font-size: 17px;
   font-weight: 400;
 }
-
-.video-card {
+#rubrics .video-card {
   background-color: #ffffff;
   border: 1px solid #dee2e6;
   border-radius: 0.75rem;
@@ -234,22 +233,22 @@ header .navbar .content {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.video-card:hover {
+#rubrics .video-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
-.video-card:hover .play-button {
+#rubrics .video-card:hover .play-button {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
 }
-.video-card:hover .video-thumbnail::before {
+#rubrics .video-card:hover .video-thumbnail::before {
   opacity: 1;
 }
-.video-card .video-thumbnail {
+#rubrics .video-card .video-thumbnail {
   position: relative;
   cursor: pointer;
 }
-.video-card .video-thumbnail::before {
+#rubrics .video-card .video-thumbnail::before {
   content: "";
   position: absolute;
   top: 0;
@@ -260,7 +259,7 @@ header .navbar .content {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.video-card .play-button {
+#rubrics .video-card .play-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -270,21 +269,21 @@ header .navbar .content {
   transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 10;
 }
-.video-card .video-card-body {
+#rubrics .video-card .video-card-body {
   padding: 1.25rem;
 }
-.video-card .video-card-title {
+#rubrics .video-card .video-card-title {
   font-size: 1.1rem;
   font-weight: 600;
   color: #212529;
   margin-bottom: 0.5rem;
 }
-.video-card .video-card-text {
+#rubrics .video-card .video-card-text {
   font-size: 0.9rem;
   color: #6c757d;
   line-height: 1.5;
 }
-.video-card .ratio {
+#rubrics .video-card .ratio {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
